@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .login{
+            border-style: margin: 0;
+            background-image: url("./img/abc.jpg");
+            background-image: url(./img/abc.jpg);
+            width: 100vw;
+            height: 100vw;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        form{
+            width: 400px;
+            height: 500px;
+            background-color:  #ffffffeb;
+            position: relative;
+            left: calc(50% - 200px);
+            top: calc(50% - 250px);
+            backdrop-filter: saturate(1.8) blur(2px);
+            border-radius: 30px;
+        }
+        input[type='text'] ,input[type='password']{
+            background-color: transparent;
+            border-style: solid;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-color: #0000ffe0;
+            width: calc(100% - 60px);
+            outline: 0;
+
+        }
+        input[type="submit"] {
+            width: 100px;
+            background-color: #f5deb3a3;
+            border-width: 0;
+            backdrop-filter: saturate(1.8) blur(2px);
+            border-radius: 30px;
+            color: blue;
+        }
+        .fcc{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .fc {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form class="fcc" action="">   
+            <div class="fc">
+                <input type="text" placeholder="帳號" name="accont">
+                <input type="password" placeholder="密碼" >
+                <input type="submit" >
+            </div> 
+        </form>
+    </div>
+</body>
+</html>
